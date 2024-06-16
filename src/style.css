@@ -1,0 +1,23 @@
+.flex-content{
+    display: flex;
+
+}
+
+.centered-text{
+    text-align: center;
+}
+
+.paddingLR-1{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+h1{
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div > img {
+    max-width: 100%;
+   
+}
