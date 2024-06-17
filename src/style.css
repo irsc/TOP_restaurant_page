@@ -1,40 +1,5 @@
-.flex-content{
-    display: flex;
-
-}
-
-.flex-header{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
-}
-
-.grid-content-2c{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 75%;
-  }
-
-.centered-text{
-    text-align: center;
-}
-
-
-.paddingLR-1{
-    padding-left: 1em;
-    padding-right: 1em;
-}
-
-.title2{
-    font-size: 1.25em;
-    color: darkolivegreen;
+body{
+    margin:0;
 }
 
 h1{
@@ -62,6 +27,54 @@ button{
 }
 button:hover{
     color: darkgreen;
+}
+
+.flex-content{
+    display: flex;
+
+}
+
+.flex-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.grid-content-2c{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 75%;
+    max-height: 75vh;
+  }
+
+.centered-text{
+    text-align: center;
+}
+
+
+.paddingLR-1{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.title2{
+    font-size: 1.25em;
+    color: darkolivegreen;
+}
+
+
+#content{
+    background-color: rgba(228, 225, 225, 0.5);
+    padding-bottom: 2em;
+    padding-top: 1em;
+    min-height: 90vh;
 }
 
 #book{
