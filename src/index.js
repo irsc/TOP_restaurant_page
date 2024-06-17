@@ -7,12 +7,17 @@ import fillBook from "./content-book";
 fillContent();
 
 const content = document.getElementById("content");
+const viva = document.getElementById("viva");
 const home = document.getElementById("home");
 const menu = document.getElementById("menu");
 const contact = document.getElementById("contact");
 const book = document.getElementById("book");
 
 home.addEventListener("click", ()=>{
+    content.innerHTML = "";
+    fillContent();
+});
+viva.addEventListener("click", ()=>{
     content.innerHTML = "";
     fillContent();
 });

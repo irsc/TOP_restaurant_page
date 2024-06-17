@@ -3,21 +3,78 @@
 
 }
 
+.flex-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.grid-content-2c{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+  }
+
 .centered-text{
     text-align: center;
 }
+
 
 .paddingLR-1{
     padding-left: 1em;
     padding-right: 1em;
 }
 
+.title2{
+    font-size: 1.25em;
+    color: darkolivegreen;
+}
+
 h1{
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkolivegreen;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: darkolivegreen;
 }
 
 div > img {
     max-width: 100%;
    
 }
+
+button{
+    background-color: white;
+    border: none;
+}
+button:hover{
+    color: darkgreen;
+}
+
+#book{
+    border: solid 1px green;
+    border-radius: 3px;
+    color: darkgreen;
+}
+#book:hover{
+    background-color: green;
+    color: white;
+}
+
+#viva{
+    cursor: default;
+}
+
